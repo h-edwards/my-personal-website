@@ -1,0 +1,78 @@
+/* CSS Document */
+
+ul,li
+{
+    font-size: 80px;
+    font-family: 'Noto Sans JP', sans-serif;
+    text-align: center;
+    display: inline;
+}
+
+section{
+
+    margin: 10% auto 0 35%;
+}
+
+/* Psuedo elements for styling purposes*/
+
+li:nth-child(1)
+{
+    color: rgb(53, 140, 223);
+}
+
+
+li:nth-child(2) {
+
+    color: rgb(235, 65, 65)
+   
+}
+
+li:nth-child(3) {
+    color: rgb(236, 191, 45);
+    
+}
+
+li:nth-child(4){
+
+    color: rgb(53, 140, 223);
+}
+
+li:nth-child(5){
+    color: rgb(4, 182, 78);
+}
+
+li:nth-child(6){
+
+  color: rgb(235, 65, 65)
+}
+
+#search
+{
+     margin: 2% auto 0 35%;
+     border-radius: 1em;
+     height: 30px;
+   
+}
+ 
+p {
+    margin: 1% auto 0 31.5%;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 1em;
+}
+
+p::before{
+    content: "<>";
+    background-color:rgb(224, 223, 223);
+    margin-right: 10px;
+    font-family: 'Noto Sans JP', sans-serif;
+    padding: 10px;
+}
+p::after {
+    content: "</>";
+    background-color:rgb(224, 223, 223);
+    margin-left: 10px;
+    font-size: 1em;
+    font-family: 'Noto Sans JP', sans-serif;
+    padding: 10px;
+
+}
